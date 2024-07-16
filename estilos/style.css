@@ -191,21 +191,19 @@ footer .logo-footer img {
         display: none;
     }
 
+    .container {
+        max-height: 500vh;
+        margin-bottom: 350px;
+    }
+
     /* FOOTER */
     footer {
-        margin-top: 350px;
+        margin-top: 50px;
     }
     footer .flex {
         gap: 30px;
     }
     footer .line-footer {
         text-align: center;
-    }
-}
-@media screen and (min-width: 400px){
-IO*/
-    /* FOOTER */
-    footer {
-        margin-top: 350px;
     }
 }
