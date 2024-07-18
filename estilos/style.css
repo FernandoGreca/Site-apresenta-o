@@ -93,6 +93,9 @@ header {
 .nav li {
     list-style: none;
 }
+.nav li i.bi-justify {
+    color: white;
+}
 
 /* Estilos inicio */
 
@@ -192,13 +195,12 @@ footer .logo-footer img {
     }
 
     .container {
-        max-height: 500vh;
-        margin-bottom: 350px;
+        height: 50%;
     }
 
     /* FOOTER */
     footer {
-        margin-top: 50px;
+        margin-top: 60%;
     }
     footer .flex {
         gap: 30px;
@@ -211,3 +213,4 @@ footer .logo-footer img {
         align-items: center;
     }
 }
+
