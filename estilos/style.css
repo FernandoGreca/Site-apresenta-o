@@ -101,7 +101,6 @@ header {
 
 .inicio {
     display: flex;
-    max-height: 550px;
 }
 
 .img-inicio img {
@@ -176,22 +175,24 @@ footer .logo-footer img {
     header nav.nav{
         display: none;
     }
-    header .logo {
-        margin: 10px auto;
-    }
-    header .logo img{
-        height: 100px;
-        width: 100px;
+    header {
+        justify-content: center;
     }
 
     /* INICIO*/
 
     .inicio{
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: 0 25px;
     }
+    .inicio .img-inicio {
+        display: flex;
+        justify-content: center;
+    }
     .inicio .img-inicio img {
-        display: none;
+        height: 90%;
+        width: 90%;
+        margin-top: 5%;
     }
 
     .container {
@@ -200,7 +201,7 @@ footer .logo-footer img {
 
     /* FOOTER */
     footer {
-        margin-top: 60%;
+        margin-top: 5%;
     }
     footer .flex {
         gap: 30px;
