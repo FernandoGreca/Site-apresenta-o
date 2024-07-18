@@ -206,4 +206,8 @@ footer .logo-footer img {
     footer .line-footer {
         text-align: center;
     }
+    footer .btn-social {
+        display: flex;
+        align-items: center;
+    }
 }
