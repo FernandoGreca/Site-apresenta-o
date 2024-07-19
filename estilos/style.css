@@ -95,6 +95,7 @@ header {
 }
 .nav li i.bi-justify {
     color: white;
+    cursor: pointer;
 }
 
 /* Estilos inicio */
