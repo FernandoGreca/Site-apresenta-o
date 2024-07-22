@@ -177,7 +177,13 @@ footer .logo-footer img {
         display: none;
     }
     header {
-        justify-content: center;
+        justify-content: space-between;
+        margin: 0 10.5%;
+    }
+
+    /* MENU CABECALHO */
+    .menu-desktop, .btn-contato{
+        display: none;
     }
 
     /* INICIO*/
