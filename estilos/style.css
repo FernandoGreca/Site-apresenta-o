@@ -93,6 +93,10 @@ header {
 .nav li {
     list-style: none;
 }
+.centro {
+    display: flex;
+    align-items: center;
+}
 .nav li i.bi-justify {
     color: white;
     cursor: pointer;
@@ -173,17 +177,17 @@ footer .logo-footer img {
 
 @media screen and (max-width: 1114px){
     /* MENU CABECALHO */
-    header nav.nav{
+    header .centro{
         display: none;
     }
     header {
-        justify-content: space-between;
-        margin: 0 10.5%;
+        justify-content: space-around;
+        gap: 30%;
     }
 
-    /* MENU CABECALHO */
-    .menu-desktop, .btn-contato{
-        display: none;
+    .btn-abrir-menu {
+        display: flex;
+        align-items: center;
     }
 
     /* INICIO*/
